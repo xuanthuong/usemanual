@@ -31,3 +31,7 @@
 
 5. Training - Mono training
 
+# Những tập data miễn phí từ Linguistic Data Consortium (LDC). https://sourceforge.net/projects/kaldi/files/
+1. yesno
+2. wsj
+3. ...
