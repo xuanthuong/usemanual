@@ -1,6 +1,6 @@
 # Explaination on training process
 - Step 1: Chuẩn bị data format. Sau khi chạy script prepare_data (ví dụ `local/rm_data_prep.sh datapath`) thành công thì sẽ tạo ra các thư mục sau
-1. *local*: chứa từ điển của dữ liệu hiện tại
+    1. *local*: chứa từ điển của dữ liệu hiện tại
     + dict
       * lexicon.txt: chứa từ vựng
       * nonsilence_phone.txt : chứa thông tin về hội thoại ko yên tĩnh
@@ -22,7 +22,7 @@
     * format giống như trong thực mục *train*
 
 - Step 2: Chuẩn bị ngôn ngữ, chạy `utils/prepare_lang.sh`
-  1. Tạo folder *data/lang* chứa *FST* để mô tả ngôn ngữ trong câu hỏi
+  Tạo folder *data/lang* chứa *FST* để mô tả ngôn ngữ trong câu hỏi
     * word.txt
     * phone.txt
 
